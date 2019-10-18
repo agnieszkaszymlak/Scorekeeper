@@ -34,9 +34,9 @@ it('should add Ania to app state', () => {
 
 	const players = app.state('players');
 
-	expect(players.length).toEqual(1);
-	expect(players[0].name).toEqual('Ania');
-	expect(players[0].score).toEqual(0);
+	expect(players.length).toEqual(3);
+	expect(players[2].name).toEqual('Ania');
+	expect(players[2].score).toEqual(0);
 
 });
     
